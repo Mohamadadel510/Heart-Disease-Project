@@ -1,0 +1,8 @@
+# Install ngrok
+pip install pyngrok
+
+# Run Streamlit app
+streamlit run ui/app.py
+
+# In another terminal, create ngrok tunnel
+ngrok http 8501

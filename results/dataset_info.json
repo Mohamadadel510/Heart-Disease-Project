@@ -1,0 +1,47 @@
+{
+  "original_shape": [
+    303,
+    14
+  ],
+  "final_shape": [
+    303,
+    21
+  ],
+  "features": [
+    "age",
+    "sex",
+    "trestbps",
+    "chol",
+    "fbs",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "cp_2",
+    "cp_3",
+    "cp_4",
+    "restecg_1",
+    "restecg_2",
+    "slope_2",
+    "slope_3",
+    "ca_1.0",
+    "ca_2.0",
+    "ca_3.0",
+    "thal_6.0",
+    "thal_7.0"
+  ],
+  "target_column": "num",
+  "target_distribution": {
+    "0": 164,
+    "1": 139
+  },
+  "missing_values_handled": true,
+  "scaling_applied": true,
+  "categorical_encoding_applied": true,
+  "categorical_features_encoded": [
+    "cp",
+    "restecg",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}
